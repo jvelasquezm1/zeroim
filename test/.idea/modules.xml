@@ -18,6 +18,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/infraestructure/entry-points/reactive-web/osdarTest.entry-points-reactive-web.iml" filepath="$PROJECT_DIR$/.idea/modules/infraestructure/entry-points/reactive-web/osdarTest.entry-points-reactive-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/infraestructure/entry-points/reactive-web/osdarTest.entry-points-reactive-web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/infraestructure/entry-points/reactive-web/osdarTest.entry-points-reactive-web.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/infraestructure/entry-points/reactive-web/osdarTest.entry-points-reactive-web.test.iml" filepath="$PROJECT_DIR$/.idea/modules/infraestructure/entry-points/reactive-web/osdarTest.entry-points-reactive-web.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infraestructure/helpers/objects-mapper/osdarTest.helpers-objects-mapper.iml" filepath="$PROJECT_DIR$/.idea/modules/infraestructure/helpers/objects-mapper/osdarTest.helpers-objects-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infraestructure/helpers/objects-mapper/osdarTest.helpers-objects-mapper.main.iml" filepath="$PROJECT_DIR$/.idea/modules/infraestructure/helpers/objects-mapper/osdarTest.helpers-objects-mapper.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infraestructure/helpers/objects-mapper/osdarTest.helpers-objects-mapper.test.iml" filepath="$PROJECT_DIR$/.idea/modules/infraestructure/helpers/objects-mapper/osdarTest.helpers-objects-mapper.test.iml" />
     </modules>
   </component>
 </project>
