@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/osdarTest.iml" filepath="$PROJECT_DIR$/.idea/modules/osdarTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/main/osdarTest.applications-main.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/main/osdarTest.applications-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/main/osdarTest.applications-main.main.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/main/osdarTest.applications-main.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/main/osdarTest.applications-main.test.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/main/osdarTest.applications-main.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/model/osdarTest.domain-model.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/model/osdarTest.domain-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/model/osdarTest.domain-model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/model/osdarTest.domain-model.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/model/osdarTest.domain-model.test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/model/osdarTest.domain-model.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/usecase/osdarTest.domain-usecase.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/usecase/osdarTest.domain-usecase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/usecase/osdarTest.domain-usecase.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/usecase/osdarTest.domain-usecase.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/usecase/osdarTest.domain-usecase.test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/usecase/osdarTest.domain-usecase.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infraestructure/driven-adapters/nosql-repository/osdarTest.driven-adapters-nosql-repository.iml" filepath="$PROJECT_DIR$/.idea/modules/infraestructure/driven-adapters/nosql-repository/osdarTest.driven-adapters-nosql-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infraestructure/driven-adapters/nosql-repository/osdarTest.driven-adapters-nosql-repository.main.iml" filepath="$PROJECT_DIR$/.idea/modules/infraestructure/driven-adapters/nosql-repository/osdarTest.driven-adapters-nosql-repository.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infraestructure/driven-adapters/nosql-repository/osdarTest.driven-adapters-nosql-repository.test.iml" filepath="$PROJECT_DIR$/.idea/modules/infraestructure/driven-adapters/nosql-repository/osdarTest.driven-adapters-nosql-repository.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infraestructure/entry-points/reactive-web/osdarTest.entry-points-reactive-web.iml" filepath="$PROJECT_DIR$/.idea/modules/infraestructure/entry-points/reactive-web/osdarTest.entry-points-reactive-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infraestructure/entry-points/reactive-web/osdarTest.entry-points-reactive-web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/infraestructure/entry-points/reactive-web/osdarTest.entry-points-reactive-web.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infraestructure/entry-points/reactive-web/osdarTest.entry-points-reactive-web.test.iml" filepath="$PROJECT_DIR$/.idea/modules/infraestructure/entry-points/reactive-web/osdarTest.entry-points-reactive-web.test.iml" />
+    </modules>
+  </component>
+</project>
