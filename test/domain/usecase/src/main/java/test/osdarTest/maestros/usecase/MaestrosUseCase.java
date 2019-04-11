@@ -3,6 +3,7 @@ package test.osdarTest.maestros.usecase;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import test.osdarTest.maestros.entity.Iglesia;
+import test.osdarTest.maestros.entity.Notaria;
 import test.osdarTest.maestros.entity.Pastor;
 import test.osdarTest.maestros.gateway.MaestrosRepository;
 
@@ -18,8 +19,8 @@ public class MaestrosUseCase {
         return maestrosRepository.getPastores();
     }
 
-    public Mono<Pastor> getPastorByIdDocument(String idDocument) {
-        return maestrosRepository.getPastorByIdDocuemnt(idDocument);
+    public Mono<Pastor> getPastorByIdDocument(String cedula) {
+        return maestrosRepository.getPastorByCedula(cedula);
     }
 
     public Flux<Iglesia> getIglesias() {
@@ -28,6 +29,14 @@ public class MaestrosUseCase {
 
     public Mono<Iglesia> getIglesiasByName(String name) {
         return maestrosRepository.getIglesiaByName(name);
+    }
+
+    public Flux<Notaria> getNotarias(){
+        return maestrosRepository.getNotarias();
+    }
+
+    public Mono<Notaria> getNotariaByName(String name){
+        return maestrosRepository.getNotariaByName(name);
     }
 
 }

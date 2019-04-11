@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import test.osdarTest.maestros.entity.Iglesia;
+import test.osdarTest.maestros.entity.Notaria;
 import test.osdarTest.maestros.entity.Pastor;
 import test.osdarTest.maestros.usecase.MaestrosUseCase;
 
@@ -37,4 +38,15 @@ public class MaestrosController {
     public Mono<Iglesia> getIglesiaByName(@PathVariable String name) {
         return maestrosUseCase.getIglesiasByName(name);
     }
+
+    @GetMapping("/notarias")
+    public Flux<Notaria> getNotarias() {
+        return maestrosUseCase.getNotarias();
+    }
+
+    @GetMapping("/notaria/{name}")
+    public Mono<Notaria> getNotariaByName(@PathVariable String name) {
+        return maestrosUseCase.getNotariaByName(name);
+    }
+
 }

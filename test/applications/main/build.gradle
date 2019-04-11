@@ -2,7 +2,7 @@ apply plugin: 'org.springframework.boot'
 
 dependencies {
 	compile project(":entry-points-reactive-web")
-    compile project(":driven-adapters-nosql-maestros")
+    compile project(":driven-adapters-nosql-repository")
 	compile project(":helpers-objects-mapper")
 	runtime('org.springframework.boot:spring-boot-devtools')
 	testCompile('org.springframework.boot:spring-boot-starter-test')

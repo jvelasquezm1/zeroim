@@ -16,6 +16,6 @@ public class PastorData {
     private String id;
     private String names;
     private String lastNames;
-    private String idDocument;
+    private String cedula;
 
 }
