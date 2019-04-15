@@ -6,7 +6,7 @@ import reactor.core.publisher.Mono;
 
 public interface IglesiaDataRepository extends ReactiveCrudRepository<IglesiaData, String> {
 
-    @Query(value = "{'name': {$regex : '^?0$', $options: 'i'}}")
-    Mono<IglesiaData> findByNameMatchesRegex(String name);
+    //@Query(value = "{'name': {$regex : '^?0$', $options: 'i'}}")
+    Mono<IglesiaData> findByNameEquals(String name);
 
 }

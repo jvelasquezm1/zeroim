@@ -52,7 +52,7 @@ public class MaestrosRepositoryAdapter implements MaestrosRepository {
 
     @Override
     public Mono<Iglesia> getIglesiaByName(String name) {
-        return iglesiaDataRepository.findByNameMatchesRegex(name)
+        return iglesiaDataRepository.findByNameEquals(name)
                 .map(converter::toEntity);
     }
 
@@ -64,7 +64,7 @@ public class MaestrosRepositoryAdapter implements MaestrosRepository {
 
     @Override
     public Mono<Notaria> getNotariaByName(String name) {
-        return notariaDataRepository.findByNameMatchesRegex(name)
+        return notariaDataRepository.findByNameIsLike(name)
                 .map(converter::toEntity);
     }
 
