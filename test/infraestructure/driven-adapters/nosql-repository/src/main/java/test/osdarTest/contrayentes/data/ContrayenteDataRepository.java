@@ -5,6 +5,6 @@ import reactor.core.publisher.Mono;
 
 public interface ContrayenteDataRepository extends ReactiveCrudRepository<ContrayenteData, String> {
 
-    Mono<ContrayenteData> getByDocumentNumberPK(String documentNumber);
+    Mono<ContrayenteData> getByDocumentNumber(String documentNumber);
 
 }

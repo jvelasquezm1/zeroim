@@ -18,8 +18,8 @@ public class ContrayenteData {
     private String id;
     private String names;
     private String lastNames;
-    private String documentType;
-    private String documentNumberPK;
+    private String documentTypePK;
+    private String documentNumber;
     private String civilRegistrationNumber;
     private String notariaPK;
 

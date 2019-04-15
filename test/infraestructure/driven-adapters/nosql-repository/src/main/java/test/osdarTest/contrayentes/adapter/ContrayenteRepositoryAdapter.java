@@ -33,7 +33,7 @@ public class ContrayenteRepositoryAdapter implements ContrayenteRepository {
 
     @Override
     public Mono<Contrayente> getContrayenteByDocumentNumber(String documentNumber) {
-        return contrayenteDataRepository.getByDocumentNumberPK(documentNumber)
+        return contrayenteDataRepository.getByDocumentNumber(documentNumber)
                 .map(converter::toEntity);
     }
 
