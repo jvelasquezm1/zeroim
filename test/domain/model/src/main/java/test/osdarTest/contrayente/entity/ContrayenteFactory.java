@@ -1,19 +1,21 @@
 package test.osdarTest.contrayente.entity;
 
 import test.osdarTest.generic.GenerateUniqueId;
+import test.osdarTest.maestros.entity.DocumentoIdentidad;
 import test.osdarTest.maestros.entity.Notaria;
 
 public interface ContrayenteFactory extends GenerateUniqueId{
 
-    default  Contrayente createContrayente(String names, String lastNames, String cedula,
-                                           String civilRegistrationNumber, Notaria notaria) {
+    default  Contrayente createContrayente(String names, String lastNames, String documentTypePK,
+                                           String documentNumber, String civilRegistrationNumber, String notariaPK) {
         return Contrayente.builder()
                 .id(generateObjectId())
                 .names(names)
                 .lastNames(lastNames)
-                .cedula(cedula)
+                .documentTypePK(documentTypePK)
+                .documentNumber(documentNumber)
                 .civilRegistrationNumber(civilRegistrationNumber)
-                .notaria(notaria)
+                .notariaPK(notariaPK)
                 .build();
     }
 }

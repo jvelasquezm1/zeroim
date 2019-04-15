@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import test.osdarTest.contrayente.gateway.ContrayenteRepository;
 import test.osdarTest.contrayente.ContrayenteUseCase;
 import test.osdarTest.maestros.gateway.MaestrosRepository;
-import test.osdarTest.maestros.usecase.MaestrosUseCase;
+import test.osdarTest.maestros.MaestrosUseCase;
 
 @Configuration
 public class UseCasesConfiguration {

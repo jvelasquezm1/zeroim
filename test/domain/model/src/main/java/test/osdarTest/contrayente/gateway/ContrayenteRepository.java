@@ -12,5 +12,5 @@ public interface ContrayenteRepository {
 
     //Flux<Contrayente> getContrayentesByMarriage(String matrimonioPK); REVISAR
 
-    Mono<Contrayente> getContrayenteByCedula(String cedula);
+    Mono<Contrayente> getContrayenteByDocumentNumber(String documentNumber);
 }

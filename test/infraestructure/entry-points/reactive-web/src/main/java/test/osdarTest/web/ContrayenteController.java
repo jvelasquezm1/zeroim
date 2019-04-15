@@ -24,8 +24,8 @@ public class ContrayenteController {
         return contrayenteUseCase.getAllContrayentes();
     }
 
-    @GetMapping("/{cedula}")
-    public Mono<Contrayente> getContrayenteByCedula(@PathVariable String cedula) {
-        return contrayenteUseCase.getContrayenteByCedula(cedula);
+    @GetMapping("/{documentNumber}")
+    public Mono<Contrayente> getContrayenteByDocumentNumber(@PathVariable String documentNumber) {
+        return contrayenteUseCase.getContrayenteByDocumentNumber(documentNumber);
     }
 }

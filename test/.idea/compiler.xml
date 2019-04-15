@@ -4,19 +4,5 @@
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="osdarTest.applications-main.main" target="1.8" />
-      <module name="osdarTest.applications-main.test" target="1.8" />
-      <module name="osdarTest.domain-model.main" target="1.8" />
-      <module name="osdarTest.domain-model.test" target="1.8" />
-      <module name="osdarTest.domain-usecase.main" target="1.8" />
-      <module name="osdarTest.domain-usecase.test" target="1.8" />
-      <module name="osdarTest.driven-adapters-nosql-repository.main" target="1.8" />
-      <module name="osdarTest.driven-adapters-nosql-repository.test" target="1.8" />
-      <module name="osdarTest.entry-points-reactive-web.main" target="1.8" />
-      <module name="osdarTest.entry-points-reactive-web.test" target="1.8" />
-      <module name="osdarTest.helpers-objects-mapper.main" target="1.8" />
-      <module name="osdarTest.helpers-objects-mapper.test" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

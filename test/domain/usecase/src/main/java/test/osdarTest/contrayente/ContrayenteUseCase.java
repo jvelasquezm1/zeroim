@@ -21,7 +21,7 @@ public class ContrayenteUseCase {
         return contrayenteRepository.getAllContrayentes();
     }
 
-    public Mono<Contrayente> getContrayenteByCedula(String cedula) {
-        return contrayenteRepository.getContrayenteByCedula(cedula);
+    public Mono<Contrayente> getContrayenteByDocumentNumber(String documentNumber) {
+        return contrayenteRepository.getContrayenteByDocumentNumber(documentNumber);
     }
 }

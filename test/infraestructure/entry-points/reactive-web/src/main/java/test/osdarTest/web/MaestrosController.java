@@ -7,10 +7,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
+import test.osdarTest.maestros.entity.DocumentoIdentidad;
 import test.osdarTest.maestros.entity.Iglesia;
 import test.osdarTest.maestros.entity.Notaria;
 import test.osdarTest.maestros.entity.Pastor;
-import test.osdarTest.maestros.usecase.MaestrosUseCase;
+import test.osdarTest.maestros.MaestrosUseCase;
 
 @RestController
 @RequestMapping("maestros")
@@ -47,6 +48,21 @@ public class MaestrosController {
     @GetMapping("/notaria/{name}")
     public Mono<Notaria> getNotariaByName(@PathVariable String name) {
         return maestrosUseCase.getNotariaByName(name);
+    }
+
+    @GetMapping("/documentos_identidad")
+    public Flux<DocumentoIdentidad> getDocumentosIdentidad() {
+        return maestrosUseCase.getDocumentosIdentidad();
+    }
+
+    @GetMapping("/documento_identidad/{name}")
+    public Mono<DocumentoIdentidad> getDocumentoIdentidadByName(@PathVariable String name) {
+        return maestrosUseCase.getDocumentoIdentidadByName(name);
+    }
+
+    @GetMapping("/documento/{idType}")
+    public Mono<DocumentoIdentidad> getDocumentoIdentidadByIdType(@PathVariable String idType) {
+        return maestrosUseCase.getDocumentoIdentidadByIdType(idType);
     }
 
 }
