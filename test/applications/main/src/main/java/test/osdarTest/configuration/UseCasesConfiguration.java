@@ -23,8 +23,8 @@ public class UseCasesConfiguration {
     }
 
     @Bean
-    public MatrimonioUseCase matrimonioUseCase(MatrimonioRepository matrimonioRepository) {
-        return new MatrimonioUseCase(matrimonioRepository);
+    public MatrimonioUseCase matrimonioUseCase(MatrimonioRepository matrimonioRepository, ContrayenteRepository contrayenteRepository) {
+        return new MatrimonioUseCase(matrimonioRepository, contrayenteRepository);
     }
 
 }

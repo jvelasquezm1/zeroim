@@ -8,6 +8,8 @@ import test.osdarTest.contrayente.entity.Contrayente;
 import test.osdarTest.contrayente.gateway.ContrayenteRepository;
 import test.osdarTest.contrayentes.data.ContrayenteDataRepository;
 
+import java.util.List;
+
 @Repository
 public class ContrayenteRepositoryAdapter implements ContrayenteRepository {
 
