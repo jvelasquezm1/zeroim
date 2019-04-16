@@ -2,7 +2,7 @@ package test.osdarTest.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import test.osdarTest.Matrimonio.MatrimonioUseCase;
+import test.osdarTest.matrimonio.MatrimonioUseCase;
 import test.osdarTest.contrayente.gateway.ContrayenteRepository;
 import test.osdarTest.contrayente.ContrayenteUseCase;
 import test.osdarTest.maestros.gateway.MaestrosRepository;

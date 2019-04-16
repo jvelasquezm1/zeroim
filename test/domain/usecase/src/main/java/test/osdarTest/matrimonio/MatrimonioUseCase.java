@@ -1,4 +1,4 @@
-package test.osdarTest.Matrimonio;
+package test.osdarTest.matrimonio;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

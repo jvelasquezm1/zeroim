@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import test.osdarTest.Matrimonio.MatrimonioUseCase;
+import test.osdarTest.matrimonio.MatrimonioUseCase;
 import test.osdarTest.matrimonio.entity.Matrimonio;
 
 @RestController

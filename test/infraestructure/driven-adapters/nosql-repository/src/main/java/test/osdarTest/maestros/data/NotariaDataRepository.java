@@ -6,7 +6,7 @@ import reactor.core.publisher.Mono;
 
 public interface NotariaDataRepository extends ReactiveCrudRepository<NotariaData, String> {
 
-    //@Query(value = "{'name': {$regex : '^?0$', $options: 'i'}}")
+    //@Query(value = "{'name': {$regex : '^?0$', $options: 'i'}}") Case insensitive
     Mono<NotariaData> findByNameIsLike(String name);
 
 }

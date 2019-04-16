@@ -14,6 +14,6 @@ public interface MatrimonioRepository {
 
     public Flux<Matrimonio> getMarriagesByIglesia(String nameIglesia);
 
-    //public Mono<Void> deleeteMarriage(Matrimonio matrimonio); Check
+    //public Mono<Void> deleeteMarriage(matrimonio matrimonio); Check
 
 }

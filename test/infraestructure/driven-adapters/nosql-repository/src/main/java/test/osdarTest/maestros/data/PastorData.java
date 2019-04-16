@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import test.osdarTest.maestros.entity.DocumentoIdentidad;
 
 @Data
 @AllArgsConstructor
@@ -16,6 +17,7 @@ public class PastorData {
     private String id;
     private String names;
     private String lastNames;
-    private String cedula;
+    private String documentNumber;
+    private DocumentoIdentidad documentType;
 
 }

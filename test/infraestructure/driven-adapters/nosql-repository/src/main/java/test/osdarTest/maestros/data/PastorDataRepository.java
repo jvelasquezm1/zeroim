@@ -5,6 +5,6 @@ import reactor.core.publisher.Mono;
 
 public interface PastorDataRepository extends ReactiveCrudRepository<PastorData, String> {
 
-    Mono<PastorData> getPastorByCedula(String cedula);
+    Mono<PastorData> getPastorByDocumentNumber(String documentNumber);
 
 }
