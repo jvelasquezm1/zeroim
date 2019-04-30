@@ -14,6 +14,7 @@ import javax.validation.constraints.Past;
 
 @RestController
 @RequestMapping("maestros")
+@CrossOrigin(value = "*")
 public class MaestrosController {
 
     @Autowired
