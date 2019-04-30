@@ -24,6 +24,10 @@ public class MaestrosUseCase {
         return maestrosRepository.getPastorByCedula(cedula);
     }
 
+    public Mono<Pastor> savePastor(Pastor pastor) {
+        return maestrosRepository.savePastor(pastor);
+    }
+
     public Flux<Iglesia> getIglesias() {
         return maestrosRepository.getIglesias();
     }
@@ -32,11 +36,11 @@ public class MaestrosUseCase {
         return maestrosRepository.getIglesiaByName(name);
     }
 
-    public Flux<Notaria> getNotarias(){
+    public Flux<Notaria> getNotarias() {
         return maestrosRepository.getNotarias();
     }
 
-    public Mono<Notaria> getNotariaByName(String name){
+    public Mono<Notaria> getNotariaByName(String name) {
         return maestrosRepository.getNotariaByName(name);
     }
 

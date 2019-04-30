@@ -10,6 +10,8 @@ public interface MaestrosRepository {
 
     Mono<Pastor> getPastorByCedula(String cedula);
 
+    Mono<Pastor> savePastor(Pastor pastor);
+
     Flux<Iglesia> getIglesias();
 
     Mono<Iglesia> getIglesiaByName(String name);

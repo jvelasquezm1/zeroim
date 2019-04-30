@@ -37,6 +37,14 @@ public class MaestrosRepositoryAdapter implements MaestrosRepository {
     }
 
     @Override
+    public Mono<Pastor> savePastor(Pastor pastor) {
+        return Mono.just(pastor)
+                .map(converter::toData)
+                .flatMap(pastorDataRepository::save)
+                .map(converter::toEntity);
+    }
+
+    @Override
     public Flux<Iglesia> getIglesias() {
         return iglesiaDataRepository.findAll()
                 .map(converter::toEntity);

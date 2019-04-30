@@ -1,10 +1,7 @@
 package test.osdarTest.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import test.osdarTest.maestros.entity.DocumentoIdentidad;
@@ -12,6 +9,8 @@ import test.osdarTest.maestros.entity.Iglesia;
 import test.osdarTest.maestros.entity.Notaria;
 import test.osdarTest.maestros.entity.Pastor;
 import test.osdarTest.maestros.MaestrosUseCase;
+
+import javax.validation.constraints.Past;
 
 @RestController
 @RequestMapping("maestros")
@@ -28,6 +27,11 @@ public class MaestrosController {
     @GetMapping("/pastor/{idDocument}")
     public Mono<Pastor> getPastorByIdDocument(@PathVariable String idDocument) {
         return maestrosUseCase.getPastorByIdDocument(idDocument);
+    }
+
+    @PostMapping("/pastor/nuevo")
+    public Mono<Pastor> savePastor(@RequestBody Pastor pastor) {
+        return maestrosUseCase.savePastor(pastor);
     }
 
     @GetMapping("/iglesias")
