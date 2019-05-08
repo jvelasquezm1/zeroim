@@ -26,7 +26,7 @@ public class MatrimonioData {
     private Pastor pastor;
     private Date fecha;
     private String marriageRegistrationNumber;
-    private Notaria notaria;
+    private String notaria;
     private String actaNumnber;
 
 }

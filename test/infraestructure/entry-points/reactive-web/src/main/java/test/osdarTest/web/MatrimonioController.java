@@ -9,6 +9,7 @@ import test.osdarTest.matrimonio.entity.Matrimonio;
 
 @RestController
 @RequestMapping("matrimonio")
+@CrossOrigin(value = "*")
 public class MatrimonioController {
 
     @Autowired

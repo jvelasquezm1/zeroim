@@ -17,7 +17,7 @@ public interface MatrimonioFactory extends GenerateUniqueId {
             Pastor pastor,
             Date fecha,
             String marriageRegistrationNumber,
-            Notaria notaria,
+            String notaria,
             String actaNumber
     ) {
         return Matrimonio.builder()
