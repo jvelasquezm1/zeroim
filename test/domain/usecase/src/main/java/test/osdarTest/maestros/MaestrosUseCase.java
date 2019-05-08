@@ -36,6 +36,10 @@ public class MaestrosUseCase {
         return maestrosRepository.getIglesiaByName(name);
     }
 
+    public Mono<Iglesia> saveIglesia(Iglesia iglesia) {
+        return maestrosRepository.saveIglesia(iglesia);
+    }
+
     public Flux<Notaria> getNotarias() {
         return maestrosRepository.getNotarias();
     }

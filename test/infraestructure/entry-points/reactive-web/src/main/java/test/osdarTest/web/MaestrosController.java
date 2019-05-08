@@ -11,6 +11,7 @@ import test.osdarTest.maestros.entity.Pastor;
 import test.osdarTest.maestros.MaestrosUseCase;
 
 import javax.validation.constraints.Past;
+import javax.validation.constraints.Positive;
 
 @RestController
 @RequestMapping("maestros")
@@ -45,6 +46,11 @@ public class MaestrosController {
         return maestrosUseCase.getIglesiasByName(name);
     }
 
+    @PostMapping("/iglesia/nueva")
+    public Mono<Iglesia> saveIglesia(@RequestBody Iglesia iglesia) {
+        return maestrosUseCase.saveIglesia(iglesia);
+    }
+
     @GetMapping("/notarias")
     public Flux<Notaria> getNotarias() {
         return maestrosUseCase.getNotarias();
@@ -69,5 +75,4 @@ public class MaestrosController {
     public Mono<DocumentoIdentidad> getDocumentoIdentidadByIdType(@PathVariable String idType) {
         return maestrosUseCase.getDocumentoIdentidadByIdType(idType);
     }
-
 }
