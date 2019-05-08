@@ -10,6 +10,8 @@ public interface MatrimonioRepository {
 
     public Flux<Matrimonio> getAllMarriages();
 
+    public Mono<Matrimonio> getMarriageById(String id);
+
     public Flux<Matrimonio> getMarriagesByPastor(String namePastor);
 
     public Flux<Matrimonio> getMarriagesByIglesia(String nameIglesia);

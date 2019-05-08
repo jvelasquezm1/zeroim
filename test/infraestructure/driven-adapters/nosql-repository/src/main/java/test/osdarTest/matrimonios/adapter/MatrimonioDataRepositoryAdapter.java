@@ -32,6 +32,12 @@ public class MatrimonioDataRepositoryAdapter implements MatrimonioRepository {
     }
 
     @Override
+    public Mono<Matrimonio> getMarriageById(String id) {
+        return matrimonioDataRepository.findById(id)
+                .map(converter::toEntity);
+    }
+
+    @Override
     public Flux<Matrimonio> getMarriagesByPastor(String namePastor) {
         return matrimonioDataRepository.findByPastor_Names(namePastor)
                 .map(converter::toEntity);

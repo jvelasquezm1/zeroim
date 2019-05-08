@@ -1,26 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="000ddb7d-fa4c-4acd-8de7-5e373e338bfe" name="Default Changelist" comment="">
+    <list default="true" id="06c3ac79-a2d7-414e-ac06-74c86167789d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applications/main/build/classes/java/main/test/osdarTest/MainApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/applications/main/build/classes/java/main/test/osdarTest/MainApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applications/main/build/classes/java/main/test/osdarTest/configuration/UseCasesConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/applications/main/build/classes/java/main/test/osdarTest/configuration/UseCasesConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/model/build/classes/java/main/test/osdarTest/maestros/gateway/MaestrosRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/model/build/classes/java/main/test/osdarTest/maestros/gateway/MaestrosRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/usecase/build/classes/java/main/test/osdarTest/maestros/MaestrosUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/usecase/build/classes/java/main/test/osdarTest/maestros/MaestrosUseCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/build/classes/java/main/test/osdarTest/maestros/adapter/MaestrosRepositoryAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/build/classes/java/main/test/osdarTest/maestros/adapter/MaestrosRepositoryAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraestructure/entry-points/reactive-web/build/classes/java/main/test/osdarTest/web/MaestrosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/infraestructure/entry-points/reactive-web/build/classes/java/main/test/osdarTest/web/MaestrosController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraestructure/entry-points/reactive-web/src/main/java/test/osdarTest/web/MaestrosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/infraestructure/entry-points/reactive-web/src/main/java/test/osdarTest/web/MaestrosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/applications/main/out/production/classes/test/osdarTest/configuration/UseCasesConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/applications/main/out/production/classes/test/osdarTest/configuration/UseCasesConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/model/out/production/classes/test/osdarTest/maestros/gateway/MaestrosRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/model/out/production/classes/test/osdarTest/maestros/gateway/MaestrosRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/matrimonio/gateway/MatrimonioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/matrimonio/gateway/MatrimonioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/usecase/out/production/classes/META-INF/osdarTest.domain-usecase.main.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/usecase/out/production/classes/test/osdarTest/Matrimonio/MatrimonioUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/usecase/out/production/classes/test/osdarTest/Matrimonio/MatrimonioUseCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/usecase/out/production/classes/test/osdarTest/maestros/MaestrosUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/domain/usecase/out/production/classes/test/osdarTest/maestros/MaestrosUseCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/usecase/src/main/java/test/osdarTest/matrimonio/MatrimonioUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/usecase/src/main/java/test/osdarTest/matrimonio/MatrimonioUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/out/production/classes/META-INF/osdarTest.driven-adapters-nosql-repository.main.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/out/production/classes/test/osdarTest/contrayentes/adapter/ContrayenteRepositoryAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/out/production/classes/test/osdarTest/contrayentes/adapter/ContrayenteRepositoryAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/out/production/classes/test/osdarTest/maestros/adapter/MaestrosRepositoryAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/out/production/classes/test/osdarTest/maestros/adapter/MaestrosRepositoryAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/matrimonios/adapter/MatrimonioDataRepositoryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/matrimonios/adapter/MatrimonioDataRepositoryAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infraestructure/entry-points/reactive-web/out/production/classes/test/osdarTest/web/MaestrosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/infraestructure/entry-points/reactive-web/out/production/classes/test/osdarTest/web/MaestrosController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/applications/main/.gradle/" />
+    <ignored path="$PROJECT_DIR$/applications/main/build/" />
+    <ignored path="$PROJECT_DIR$/applications/main/out/" />
     <ignored path="$PROJECT_DIR$/domain/model/.gradle/" />
+    <ignored path="$PROJECT_DIR$/domain/model/build/" />
+    <ignored path="$PROJECT_DIR$/domain/model/out/" />
     <ignored path="$PROJECT_DIR$/domain/usecase/.gradle/" />
+    <ignored path="$PROJECT_DIR$/domain/usecase/build/" />
+    <ignored path="$PROJECT_DIR$/domain/usecase/out/" />
     <ignored path="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/.gradle/" />
+    <ignored path="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/build/" />
+    <ignored path="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/out/" />
     <ignored path="$PROJECT_DIR$/infraestructure/entry-points/reactive-web/.gradle/" />
+    <ignored path="$PROJECT_DIR$/infraestructure/entry-points/reactive-web/build/" />
+    <ignored path="$PROJECT_DIR$/infraestructure/entry-points/reactive-web/out/" />
     <ignored path="$PROJECT_DIR$/infraestructure/helpers/objects-mapper/.gradle/" />
+    <ignored path="$PROJECT_DIR$/infraestructure/helpers/objects-mapper/build/" />
+    <ignored path="$PROJECT_DIR$/infraestructure/helpers/objects-mapper/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,54 +54,65 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="osdarTest" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/domain/usecase/src/main/java/test/osdarTest/maestros/MaestrosUseCase.java">
+        <entry file="file://$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/matrimonio/entity/Matrimonio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="289">
+              <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/domain/usecase/src/main/java/test/osdarTest/matrimonio/MatrimonioUseCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="43" column="70" lean-forward="true" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
               <folding>
-                <element signature="e#734#735#0" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#1900#1901#0" expanded="true" />
+                <element signature="e#1961#1962#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/infraestructure/entry-points/reactive-web/src/main/java/test/osdarTest/web/MaestrosController.java">
+        <entry file="file://$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/matrimonio/gateway/MatrimonioRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-250">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="170">
+              <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/maestros/entity/DocumentoIdentidad.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/matrimonios/adapter/MatrimonioDataRepositoryAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="319">
+              <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/matrimonios/data/MatrimonioDataRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/generic/GenerateUniqueId.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="43" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,74 +120,32 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Singleton" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/domain/usecase/src/main/java/test/osdarTest/maestros/usecase/MaestrosUseCase.java" />
-        <option value="$PROJECT_DIR$/domain/usecase/src/main/java/test/osdarTest/usecase/MaestrosUseCase.java" />
-        <option value="$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/maestros/entity/entity/Pastor.java" />
-        <option value="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/maestros/adapter/ConverterMaestros.java" />
-        <option value="$PROJECT_DIR$/domain/usecase/src/main/java/test/osdarTest/maestros/MaestrosUseCase.java" />
-        <option value="$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/contrayente/gateway/ContrayenteRepository.java" />
-        <option value="$PROJECT_DIR$/domain/usecase/src/main/java/test/osdarTest/contrayente/ContrayenteUseCase.java" />
-        <option value="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/contrayentes/adapter/ContrayenteRepositoryAdapter.java" />
-        <option value="$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/contrayente/entity/Contrayente.java" />
-        <option value="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/contrayentes/data/ContrayenteData.java" />
-        <option value="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/contrayentes/data/ContrayenteDataRepository.java" />
-        <option value="$PROJECT_DIR$/infraestructure/entry-points/reactive-web/src/main/java/test/osdarTest/web/ContrayenteController.java" />
         <option value="$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/matrimonio/gateway/MatrimonioRepository.java" />
-        <option value="$PROJECT_DIR$/domain/usecase/src/main/java/test/osdarTest/Matrimonio/MatrimonioUseCase.java" />
-        <option value="$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/contrayente/entity/ContrayenteFactory.java" />
-        <option value="$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/matrimonio/entity/MatrimonioFactory.java" />
-        <option value="$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/matrimonio/entity/MatrimonioOperations.java" />
-        <option value="$PROJECT_DIR$/applications/main/src/main/java/test/osdarTest/configuration/UseCasesConfiguration.java" />
-        <option value="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/matrimonios/data/MatrimonioData.java" />
-        <option value="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/matrimonios/adapter/ConverterMatrimonio.java" />
-        <option value="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/matrimonios/adapter/MatrimonioRepositoryAdapter.java" />
         <option value="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/matrimonios/adapter/MatrimonioDataRepositoryAdapter.java" />
-        <option value="$PROJECT_DIR$/infraestructure/entry-points/reactive-web/src/main/java/test/osdarTest/web/MatrimonioController.java" />
-        <option value="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/matrimonios/data/MatrimonioDataRepository.java" />
-        <option value="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/maestros/data/IglesiaDataRepository.java" />
-        <option value="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/maestros/data/NotariaDataRepository.java" />
-        <option value="$PROJECT_DIR$/applications/main/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/maestros/entity/Pastor.java" />
-        <option value="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/maestros/data/PastorData.java" />
-        <option value="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/maestros/data/PastorDataRepository.java" />
-        <option value="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/maestros/data/IglesiaData.java" />
-        <option value="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/maestros/data/DocumentoIdentidadDataRepository.java" />
-        <option value="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/maestros/adapter/MaestrosRepositoryAdapter.java" />
-        <option value="$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/maestros/data/DocumentoIdentidadData.java" />
-        <option value="$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/maestros/gateway/MaestrosRepository.java" />
-        <option value="$PROJECT_DIR$/domain/usecase/src/test/java/test/osdarTest/maestros/PastorUseCaseTest.java" />
-        <option value="$PROJECT_DIR$/infraestructure/entry-points/reactive-web/src/main/java/test/osdarTest/web/MaestrosController.java" />
-        <option value="$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/maestros/entity/TipoDocumento.java" />
-        <option value="$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/maestros/entity/DocumentoIdentidad.java" />
+        <option value="$PROJECT_DIR$/domain/usecase/src/main/java/test/osdarTest/matrimonio/MatrimonioUseCase.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="728" />
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,115 +156,7 @@
             <path>
               <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="applications" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="applications" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="applications" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="applications" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="applications" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="applications" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="osdarTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="osdarTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="osdarTest" type="462c0819:PsiDirectoryNode" />
-              <item name="maestros" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="osdarTest" type="462c0819:PsiDirectoryNode" />
-              <item name="maestros" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
@@ -327,70 +207,12 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="osdarTest" type="462c0819:PsiDirectoryNode" />
-              <item name="maestros" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="infraestructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="infraestructure" type="462c0819:PsiDirectoryNode" />
-              <item name="entry-points" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="infraestructure" type="462c0819:PsiDirectoryNode" />
-              <item name="entry-points" type="462c0819:PsiDirectoryNode" />
-              <item name="reactive-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="infraestructure" type="462c0819:PsiDirectoryNode" />
-              <item name="entry-points" type="462c0819:PsiDirectoryNode" />
-              <item name="reactive-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="infraestructure" type="462c0819:PsiDirectoryNode" />
-              <item name="entry-points" type="462c0819:PsiDirectoryNode" />
-              <item name="reactive-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="infraestructure" type="462c0819:PsiDirectoryNode" />
-              <item name="entry-points" type="462c0819:PsiDirectoryNode" />
-              <item name="reactive-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="osdarTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="infraestructure" type="462c0819:PsiDirectoryNode" />
-              <item name="entry-points" type="462c0819:PsiDirectoryNode" />
-              <item name="reactive-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="matrimonio" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -400,12 +222,10 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="test.osdarTest.maestros.entity" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -419,39 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MainApplication">
-    <configuration name="PastorUseCaseTest.shouldGetAllPastores" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="osdarTest.domain-usecase.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.osdarTest.maestros.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.osdarTest.maestros" />
-      <option name="MAIN_CLASS_NAME" value="test.osdarTest.maestros.PastorUseCaseTest" />
-      <option name="METHOD_NAME" value="shouldGetAllPastores" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PastorUseCaseTest.shouldGetPastorByDocumentNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="osdarTest.domain-usecase.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.osdarTest.maestros.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.osdarTest.maestros" />
-      <option name="MAIN_CLASS_NAME" value="test.osdarTest.maestros.PastorUseCaseTest" />
-      <option name="METHOD_NAME" value="shouldGetPastorByDocumentNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="osdarTest.applications-main.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="test.osdarTest.MainApplication" />
@@ -459,282 +247,159 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.PastorUseCaseTest.shouldGetAllPastores" />
-        <item itemvalue="JUnit.PastorUseCaseTest.shouldGetPastorByDocumentNumber" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5119abb3-a0e7-45db-87e8-4cf442216496" name="Default Changelist" comment="" />
-      <created>1555430675146</created>
+      <changelist id="06c3ac79-a2d7-414e-ac06-74c86167789d" name="Default Changelist" comment="" />
+      <created>1557241211261</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1555339759240</updated>
-      <workItem from="1555339760991" duration="731000" />
-      <workItem from="1555340536136" duration="14440000" />
-      <workItem from="1555362871418" duration="2894000" />
-      <workItem from="1555424786563" duration="5992000" />
+      <updated>1557241211261</updated>
+      <workItem from="1557241212479" duration="3221000" />
+      <workItem from="1557332300696" duration="613000" />
+      <workItem from="1557349864418" duration="3628000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="PastorUseCaseTest_shouldGetPastorByDocumentNumber - 2019.04.16 at 10h 55m 28s.xml">
-      <configuration name="PastorUseCaseTest.shouldGetPastorByDocumentNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PastorUseCaseTest_shouldGetPastorByDocumentNumber - 2019.04.16 at 11h 05m 27s.xml">
-      <configuration name="PastorUseCaseTest.shouldGetPastorByDocumentNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PastorUseCaseTest_shouldGetPastorByDocumentNumber - 2019.04.16 at 11h 07m 58s.xml">
-      <configuration name="PastorUseCaseTest.shouldGetPastorByDocumentNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PastorUseCaseTest_shouldGetPastorByDocumentNumber - 2019.04.16 at 11h 09m 36s.xml">
-      <configuration name="PastorUseCaseTest.shouldGetPastorByDocumentNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PastorUseCaseTest_shouldGetPastorByDocumentNumber - 2019.04.16 at 11h 10m 13s.xml">
-      <configuration name="PastorUseCaseTest.shouldGetPastorByDocumentNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PastorUseCaseTest_shouldGetPastorByDocumentNumber - 2019.04.16 at 11h 13m 41s.xml">
-      <configuration name="PastorUseCaseTest.shouldGetPastorByDocumentNumber" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25786000" />
+    <option name="totallyTimeSpent" value="7462000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" weight="0.32980332" />
-      <window_info id="Learn" order="7" weight="0.32980332" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32872504" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32872504" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.34408602" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39938557" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Build" order="8" weight="0.32872504" />
-      <window_info anchor="bottom" id="Spring" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.29646698" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32872504" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35679215" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.22426869" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/domain/usecase/src/main/java/test/osdarTest/matrimonio/MatrimonioUseCase.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/domain/usecase/src/main/java/test/osdarTest/matrimonio/MatrimonioUseCase.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/domain/usecase/src/main/java/test/osdarTest/matrimonio/MatrimonioUseCase.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/applications/main/src/main/java/test/osdarTest/configuration/UseCasesConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/matrimonio/entity/MatrimonioOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/matrimonio/gateway/MatrimonioRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="70" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/matrimonio/entity/MatrimonioFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/maestros/data/IglesiaDataRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/main/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/maestros/data/NotariaDataRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="83" selection-start-line="8" selection-start-column="83" selection-end-line="8" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/maestros/data/IglesiaData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/maestros/data/PastorData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/usecase/src/main/java/test/osdarTest/matrimonio/MatrimonioUseCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/maestros/adapter/ConverterMaestros.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="48" column="76" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/maestros/data/PastorDataRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/maestros/adapter/MaestrosRepositoryAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/maestros/entity/Pastor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/maestros/data/DocumentoIdentidadData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/maestros/data/NotariaData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/maestros/gateway/MaestrosRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/usecase/src/test/java/test/osdarTest/maestros/PastorUseCaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="93" column="59" selection-start-line="93" selection-start-column="59" selection-end-line="93" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="832" selection-start-line="832" selection-end-line="832" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/domain/usecase/src/main/java/test/osdarTest/maestros/MaestrosUseCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding>
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/infraestructure/entry-points/reactive-web/src/main/java/test/osdarTest/web/MaestrosController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="680">
+          <caret line="64" column="65" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/maestros/entity/TipoDocumento.java">
+    <entry file="file://$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/contrayente/entity/ContrayenteFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="238">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/maestros/entity/DocumentoIdentidad.java">
+    <entry file="file://$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/generic/GenerateUniqueId.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="102">
+          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/matrimonios/data/MatrimonioDataRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/matrimonio/gateway/MatrimonioRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/infraestructure/driven-adapters/nosql-repository/src/main/java/test/osdarTest/matrimonios/adapter/MatrimonioDataRepositoryAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/model/src/main/java/test/osdarTest/matrimonio/entity/Matrimonio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/usecase/src/main/java/test/osdarTest/matrimonio/MatrimonioUseCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="43" column="70" lean-forward="true" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
+          <folding>
+            <element signature="e#1900#1901#0" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -744,7 +409,7 @@
     <states>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
