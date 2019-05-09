@@ -16,9 +16,7 @@ public interface MaestrosRepository {
 
     Mono<Iglesia> getIglesiaByName(String name);
 
-    Flux<Notaria> getNotarias();
-
-    Mono<Notaria> getNotariaByName(String name);
+    Mono<Iglesia> saveIglesia(Iglesia iglesia);
 
     Flux<DocumentoIdentidad> getDocumentosIdentidad();
 

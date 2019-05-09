@@ -8,23 +8,23 @@ import test.osdarTest.contrayente.entity.Contrayente;
 import test.osdarTest.contrayente.ContrayenteUseCase;
 
 @RestController
-@RequestMapping("contrayente")
+@CrossOrigin(value = "*")
 public class ContrayenteController {
 
     @Autowired
     private ContrayenteUseCase contrayenteUseCase;
 
-    @PostMapping
+    @PostMapping("/contrayente/nuevo")
     public Mono<Contrayente> saveContrayente(@RequestBody Contrayente contrayente) {
         return contrayenteUseCase.saveContrayente(contrayente);
     }
 
-    @GetMapping
+    @GetMapping("/contrayentes")
     public Flux<Contrayente> getAllContrayentes() {
         return contrayenteUseCase.getAllContrayentes();
     }
 
-    @GetMapping("/{documentNumber}")
+    @GetMapping("contrayente/{documentNumber}")
     public Mono<Contrayente> getContrayenteByDocumentNumber(@PathVariable String documentNumber) {
         return contrayenteUseCase.getContrayenteByDocumentNumber(documentNumber);
     }

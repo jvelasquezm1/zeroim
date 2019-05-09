@@ -6,7 +6,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import test.osdarTest.contrayente.entity.Contrayente;
 import test.osdarTest.maestros.entity.Iglesia;
-import test.osdarTest.maestros.entity.Notaria;
 import test.osdarTest.maestros.entity.Pastor;
 
 import java.util.Date;
@@ -24,7 +23,7 @@ public class Matrimonio {
     private Pastor pastor;
     private Date fecha;
     private String marriageRegistrationNumber;
-    private Notaria notaria;
+    private String notaria;
     private String actaNumber;
 
 }

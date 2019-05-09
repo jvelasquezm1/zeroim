@@ -20,9 +20,6 @@ public class MaestrosRepositoryAdapter implements MaestrosRepository {
     private IglesiaDataRepository iglesiaDataRepository;
 
     @Autowired
-    private NotariaDataRepository notariaDataRepository;
-
-    @Autowired
     private DocumentoIdentidadDataRepository documentoIdentidadDataRepository;
 
     @Override
@@ -57,14 +54,10 @@ public class MaestrosRepositoryAdapter implements MaestrosRepository {
     }
 
     @Override
-    public Flux<Notaria> getNotarias() {
-        return notariaDataRepository.findAll()
-                .map(converter::toEntity);
-    }
-
-    @Override
-    public Mono<Notaria> getNotariaByName(String name) {
-        return notariaDataRepository.findByNameIsLike(name)
+    public Mono<Iglesia> saveIglesia(Iglesia iglesia) {
+        return Mono.just(iglesia)
+                .map(converter::toData)
+                .flatMap(iglesiaDataRepository::save)
                 .map(converter::toEntity);
     }
 

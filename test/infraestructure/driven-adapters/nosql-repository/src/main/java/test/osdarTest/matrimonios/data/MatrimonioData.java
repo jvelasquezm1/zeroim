@@ -7,7 +7,6 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import test.osdarTest.contrayente.entity.Contrayente;
 import test.osdarTest.maestros.entity.Iglesia;
-import test.osdarTest.maestros.entity.Notaria;
 import test.osdarTest.maestros.entity.Pastor;
 
 import java.util.Date;
@@ -26,7 +25,7 @@ public class MatrimonioData {
     private Pastor pastor;
     private Date fecha;
     private String marriageRegistrationNumber;
-    private Notaria notaria;
-    private String actaNumnber;
+    private String notaria;
+    private String actaNumber;
 
 }

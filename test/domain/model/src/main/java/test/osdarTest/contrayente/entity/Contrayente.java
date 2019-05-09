@@ -5,7 +5,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import test.osdarTest.maestros.entity.DocumentoIdentidad;
-import test.osdarTest.maestros.entity.Notaria;
 
 @Data
 @AllArgsConstructor
@@ -16,9 +15,9 @@ public class Contrayente {
     private String id;
     private String names;
     private String lastNames;
-    private String documentTypePK;
     private String documentNumber;
+    private DocumentoIdentidad documentType;
     private String civilRegistrationNumber;
-    private String notariaPK;
+    private String notaria;
 
 }

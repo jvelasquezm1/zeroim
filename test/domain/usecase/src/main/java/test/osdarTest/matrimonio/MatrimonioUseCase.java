@@ -24,48 +24,11 @@ public class MatrimonioUseCase implements GenerateUniqueId{
 
     public Mono<Matrimonio> saveMatrimonio(Matrimonio matrimonio) {
 
-        return matrimonioRepository.getMarriageById(matrimonio.getId())
-                .defaultIfEmpty(Matrimonio.builder().build())
-                .filter(matrimonio1 -> matrimonio.getId() == null)
-                .map(matrimonio1 -> generateObjectId())
-                .flatMap(id -> {
-
-                    final Mono<List<Contrayente>> contrayenteList = Flux.fromIterable(matrimonio.getContrayentes())
-                            .flatMap(contrayente -> contrayenteRepository.saveContrayente(contrayente))
-                            .collectList();
-
-                    return Mono.just(matrimonioRepository.saveMarriage(Matrimonio.builder().id(id)
-                    .contrayentes(contrayenteList)
-                    .iglesia(matrimonio.getIglesia())
-                    .pastor(matrimonio.getPastor())
-                    .fecha(matrimonio.getFecha())
-                    .marriageRegistrationNumber(matrimonio.getMarriageRegistrationNumber())
-                    .notaria(matrimonio.getNotaria())
-                    .actaNumber(matrimonio.getActaNumber()).build()));
-
-                });
-
-
-
-
-        return saveAgregates(matrimonio)
-                .flatMap(matri -> matrimonioRepository.saveMarriage(matri));
-    }
-
-    public Mono<Matrimonio> saveAgregates(Matrimonio matrimonio){
-
         return Flux.fromIterable(matrimonio.getContrayentes())
-        .map(contrayente -> contrayente.getId() == null ?
-                contrayente.toBuilder().id(UUID.randomUUID().toString()).build() : contrayente )
-        .flatMap(contrayente -> contrayenteRepository.saveContrayente(contrayente))
-        .then(Mono.just(matrimonio));
-
-
-        /*return Flux.fromIterable(matrimonio.getContrayentes())
-                .map(contrayente -> contrayente.getId() == null ?
-                        contrayente.toBuilder().id(UUID.randomUUID().toString()).build() : contrayente )
-                .flatMap(contrayente -> contrayenteRepository.saveContrayente(contrayente))
-                .then(Mono.just(matrimonio));*/
+                        .flatMap(contrayente -> contrayenteRepository.saveContrayente(contrayente))
+                        .collectList()
+                        .map(contrayentes -> matrimonio.toBuilder().contrayentes(contrayentes).build())
+                        .flatMap(matrimonio1 -> matrimonioRepository.saveMarriage(matrimonio1));
 
     }
 

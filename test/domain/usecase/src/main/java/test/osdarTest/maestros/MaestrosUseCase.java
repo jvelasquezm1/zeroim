@@ -4,7 +4,6 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import test.osdarTest.maestros.entity.DocumentoIdentidad;
 import test.osdarTest.maestros.entity.Iglesia;
-import test.osdarTest.maestros.entity.Notaria;
 import test.osdarTest.maestros.entity.Pastor;
 import test.osdarTest.maestros.gateway.MaestrosRepository;
 
@@ -36,12 +35,8 @@ public class MaestrosUseCase {
         return maestrosRepository.getIglesiaByName(name);
     }
 
-    public Flux<Notaria> getNotarias() {
-        return maestrosRepository.getNotarias();
-    }
-
-    public Mono<Notaria> getNotariaByName(String name) {
-        return maestrosRepository.getNotariaByName(name);
+    public Mono<Iglesia> saveIglesia(Iglesia iglesia) {
+        return maestrosRepository.saveIglesia(iglesia);
     }
 
     public Flux<DocumentoIdentidad> getDocumentosIdentidad() {

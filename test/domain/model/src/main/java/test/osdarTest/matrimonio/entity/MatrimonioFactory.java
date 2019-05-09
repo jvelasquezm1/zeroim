@@ -3,7 +3,6 @@ package test.osdarTest.matrimonio.entity;
 import test.osdarTest.contrayente.entity.Contrayente;
 import test.osdarTest.generic.GenerateUniqueId;
 import test.osdarTest.maestros.entity.Iglesia;
-import test.osdarTest.maestros.entity.Notaria;
 import test.osdarTest.maestros.entity.Pastor;
 
 import java.util.Date;
@@ -17,7 +16,7 @@ public interface MatrimonioFactory extends GenerateUniqueId {
             Pastor pastor,
             Date fecha,
             String marriageRegistrationNumber,
-            Notaria notaria,
+            String notaria,
             String actaNumber
     ) {
         return Matrimonio.builder()
