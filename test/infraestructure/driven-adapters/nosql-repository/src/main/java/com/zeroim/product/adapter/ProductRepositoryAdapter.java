@@ -4,9 +4,11 @@ import com.zeroim.product.data.ProductDataRepository;
 import com.zeroim.product.entity.Product;
 import com.zeroim.product.gateway.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
+@Repository
 public class ProductRepositoryAdapter implements ProductRepository {
     @Autowired
     ConverterProduct converter;
