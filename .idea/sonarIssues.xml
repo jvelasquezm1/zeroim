@@ -258,6 +258,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/entry-points/reactive-web/src/main/java/com/zeroim/web/StockController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/test/main.gradle">
           <value>
             <set />
