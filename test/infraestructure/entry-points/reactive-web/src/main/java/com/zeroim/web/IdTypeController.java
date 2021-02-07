@@ -1,4 +1,4 @@
-package com.zeroim.web.client;
+package com.zeroim.web;
 
 import com.zeroim.client.IdTypeUseCase;
 import com.zeroim.client.entity.IdType;
@@ -7,28 +7,28 @@ import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-@RestController(value = "/idType")
+@RestController
 @CrossOrigin(value = "*")
 public class IdTypeController {
     @Autowired
     private IdTypeUseCase idTypeUseCase;
 
-    @PostMapping
+    @PostMapping(value = "/idType")
     public Mono<IdType> create(IdType idType) {
         return idTypeUseCase.create(idType);
     }
 
-    @GetMapping(value = "/{id}")
+    @GetMapping(value = "/idType/{id}")
     public Mono<IdType> getById(@PathVariable Long id) {
         return idTypeUseCase.getById(id);
     }
 
-    @DeleteMapping(value = "/delete/{id}")
+    @DeleteMapping(value = "/idType/delete/{id}")
     public Mono<Void> delete(Long id) {
         return idTypeUseCase.delete(id);
     }
 
-    @GetMapping(value = "/getAll")
+    @GetMapping(value = "/idType/getAll")
     public Flux<IdType> getAll() {
         return idTypeUseCase.getAll();
     }

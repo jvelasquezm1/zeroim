@@ -7,28 +7,28 @@ import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-@RestController(value = "/stock")
+@RestController
 @CrossOrigin(value = "*")
 public class StockController {
     @Autowired
     private StockItemUseCase stockItemUseCase;
 
-    @PostMapping
+    @PostMapping(value = "/stock")
     public Mono<StockItem> create(StockItem stockItem) {
         return stockItemUseCase.create(stockItem);
     }
 
-    @GetMapping(value = "/{id}")
+    @GetMapping(value = "/stock/{id}")
     public Mono<StockItem> getById(@PathVariable Long id) {
         return stockItemUseCase.getById(id);
     }
 
-    @DeleteMapping(value = "/delete/{id}")
+    @DeleteMapping(value = "/stock/delete/{id}")
     public Mono<Void> delete(@PathVariable Long id) {
         return stockItemUseCase.delete(id);
     }
 
-    @GetMapping(value = "/getAll")
+    @GetMapping(value = "/stock/getAll")
     public Flux<StockItem> getAll() {
         return stockItemUseCase.getAll();
     }

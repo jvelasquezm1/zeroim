@@ -263,6 +263,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/entry-points/reactive-web/src/main/java/com/zeroim/web/BillController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/entry-points/reactive-web/src/main/java/com/zeroim/web/BillDetailController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/entry-points/reactive-web/src/main/java/com/zeroim/web/BuyerController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/entry-points/reactive-web/src/main/java/com/zeroim/web/IdTypeController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/test/infraestructure/entry-points/reactive-web/src/main/java/com/zeroim/web/ProductController.java">
           <value>
             <set />
