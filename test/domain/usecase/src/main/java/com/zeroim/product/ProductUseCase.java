@@ -7,6 +7,7 @@ import reactor.core.publisher.Mono;
 
 public class ProductUseCase {
     private final ProductRepository productRepository;
+
     public ProductUseCase(ProductRepository productRepository) {
         this.productRepository = productRepository;
     }

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/applications/main/src/main/java/com/zeroim/configuration/UseCasesConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/model/src/main/java/com/zeroim/Bill/entity/Bill.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/model/src/main/java/com/zeroim/Bill/gateway/BillRepo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/model/src/main/java/com/zeroim/bill/entity/Bill.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/model/src/main/java/com/zeroim/bill/entity/BillDetail.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/model/src/main/java/com/zeroim/bill/gateway/BillDetailRepo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/model/src/main/java/com/zeroim/bill/gateway/BillRepo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/model/src/main/java/com/zeroim/client/entity/Buyer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/model/src/main/java/com/zeroim/client/entity/Client.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/model/src/main/java/com/zeroim/client/entity/IdType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/model/src/main/java/com/zeroim/client/gateway/BuyerRepo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/model/src/main/java/com/zeroim/client/gateway/ClientGatewayRepo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/model/src/main/java/com/zeroim/client/gateway/ClientRepo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/model/src/main/java/com/zeroim/client/gateway/IdTypeRepo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/model/src/main/java/com/zeroim/product/entity/Product.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/model/src/main/java/com/zeroim/stock/entity/Stock.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/model/src/main/java/com/zeroim/stock/entity/StockItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/model/src/main/java/com/zeroim/stock/gateway/StockItemRepo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/model/src/main/java/com/zeroim/stock/gateway/StockRepo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/usecase/src/main/java/com/zeroim/bill/BillUseCase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/usecase/src/main/java/com/zeroim/client/BuyerUseCase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/usecase/src/main/java/com/zeroim/product/ProductUseCase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/bill/adapter/BillDetailRepoAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/bill/adapter/BillRepoAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/bill/adapter/ConverterBill.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/bill/adapter/ConverterBillDetail.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/bill/data/BillData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/bill/data/BillDataRepo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/bill/data/BillDetailData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/bill/data/BillDetailDataRepo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/client/adapter/BuyerRepoAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/client/adapter/ClientRepoAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/client/adapter/ConverterBuyer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/client/adapter/ConverterClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/client/adapter/ConverterIdType.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/client/adapter/IdTypeRepoAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/client/data/BuyerData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/client/data/BuyerDataRepo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/client/data/ClientData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/client/data/ClientDataRepo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/client/data/IdTypeData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/client/data/IdTypeDataRepo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/stock/adapter/ConverterStockItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/stock/adapter/StockItemRepoAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/stock/data/StockItemData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/stock/data/StockItemDataRepo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/main.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

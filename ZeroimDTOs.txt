@@ -1,0 +1,30 @@
+Zeroim DTOs
+
+-Factura
+id (número factura)
+fecha
+clienteId
+facturaDetalleId
+total
+
+-FacturaDetalle
+id
+producto
+cantidad
+precioTotal*
+
+-Cliente
+id cc
+tipoId nit o cc
+nombre
+direccion
+telefono nullable
+
+-Producto
+id
+nombre
+precio
+
+-Inventario
+producto
+cantidad
