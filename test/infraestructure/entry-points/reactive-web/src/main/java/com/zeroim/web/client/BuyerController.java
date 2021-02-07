@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-@RestController(value = "/billDetail")
+@RestController(value = "/buyer")
 @CrossOrigin(value = "*")
 public class BuyerController {
     @Autowired

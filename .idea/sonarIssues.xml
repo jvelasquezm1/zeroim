@@ -8,6 +8,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/test/.gradle/4.10.3/fileContent/fileContent.lock">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/test/applications/main/src/main/java/com/zeroim/configuration/UseCasesConfiguration.java">
           <value>
             <set />
@@ -254,6 +259,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/test/infraestructure/driven-adapters/nosql-repository/src/main/java/com/zeroim/stock/data/StockItemDataRepo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/infraestructure/entry-points/reactive-web/src/main/java/com/zeroim/web/ProductController.java">
           <value>
             <set />
           </value>
