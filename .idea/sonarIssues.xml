@@ -103,6 +103,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/test/domain/usecase/src/main/java/com/zeroim/bill/BillDetailUseCase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/test/domain/usecase/src/main/java/com/zeroim/bill/BillUseCase.java">
           <value>
             <set />
@@ -113,7 +118,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/test/domain/usecase/src/main/java/com/zeroim/client/IdTypeUseCase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/test/domain/usecase/src/main/java/com/zeroim/product/ProductUseCase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test/domain/usecase/src/main/java/com/zeroim/stock/StockItemUseCase.java">
           <value>
             <set />
           </value>
