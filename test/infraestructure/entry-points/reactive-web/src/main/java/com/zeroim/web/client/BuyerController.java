@@ -19,13 +19,13 @@ public class BuyerController {
     }
 
     @GetMapping(value = "/{id}")
-    public Mono<Buyer> getById(@PathVariable Long buyerId) {
-        return buyerUseCase.getById(buyerId);
+    public Mono<Buyer> getById(@PathVariable Long id) {
+        return buyerUseCase.getById(id);
     }
 
     @DeleteMapping(value = "/delete/{id}")
-    public Mono<Void> delete(@PathVariable Long buyerId) {
-        return buyerUseCase.delete(buyerId);
+    public Mono<Void> delete(@PathVariable Long id) {
+        return buyerUseCase.delete(id);
     }
 
     @GetMapping(value = "/getAll")
